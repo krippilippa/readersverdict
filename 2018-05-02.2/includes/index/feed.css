@@ -1,0 +1,418 @@
+body {
+	margin: 0;
+	background-color: #fafafa;
+	font-family: helvetica;
+}
+
+div#startinfo {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: -40px;
+	border: 1px solid #000;
+	background-color: #feffff;
+}
+
+p#startinfotext {
+	margin-left: 10px;
+}
+
+p#startinfotitel {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+div#article {
+	background-color: #feffff;
+	border-right: 1px solid #a3a3a3;
+	border-bottom: 1px solid #a3a3a3;
+	border-left: 1px solid #a3a3a3;
+	margin-bottom: 15px;
+}
+
+div#posttop {
+	font-size: 10px;
+	background-color: #ebebeb;
+	margin-top: -10px;
+	border-top: 1px solid #a3a3a3;
+	border-bottom: 1px solid #c5c5c5;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom: 12px;
+}
+p#name1 {
+	display: inline;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+	width: 25%;
+	font-weight: bold;
+}
+
+p#name2 {
+	display: inline;
+	margin-bottom: 0;
+	margin-top: 0;
+	float: left;
+	width: 25%;
+}
+
+p#name3 {
+	display: inline;
+	position: relative;
+	margin-top: 0;
+	margin-right: 5px;
+}
+
+#posttop i.material-icons {
+	font-size: 9px;
+	display: inline;
+	position: static;
+	margin-left: 30px;
+}
+
+p#name4 {
+	display: inline;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5px;
+	float: right;
+}
+
+.userbox{
+	float:right;
+	padding-right:5px;
+	margin-right: 10px;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+p#creduser {
+	display: inline;
+		font: normal 12px Helvetica;
+}
+
+p#postuser {
+	display: inline;
+	margin-left: 5px;
+	font: bold 12px Helvetica;
+}
+
+#load h2 a {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: Helvetica;
+	display: inline;
+	float: none;
+	color: #000;
+}
+
+#article h2 {
+	margin: 7px 15px -3px;
+}
+
+a#articlelink{
+	font: 10px Helvetica;
+	padding-left: 15px;
+	color: #000;
+	display: inline-block;
+	margin-top: 8px;
+	float: left;
+}
+
+p#postdesc {
+	width: 90%;
+	margin-bottom: 25px;
+	font: normal 14px Helvetica;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+
+div#load {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: helvetica;
+}
+
+div[id^="votedemo"] {
+	font: 12px Helvetica;
+	border-top:solid;
+	border-width: 1px;
+	border-color: #a3a3a3a3;
+	height: 35px;
+	}
+p#artfake{
+	font:12px Helvetica;
+	margin-bottom:-18px;
+  padding-top:2px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+}
+
+div#votebar {
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	margin-top:23px;
+	width:50% ;
+	height:6px;
+}
+
+button#votetrue {
+	float: left;
+	width: 70px;
+	height: 35px;
+	background-color: #ff4145;
+	border: 2px solid #ff4145;
+	font-family:"Arial";
+	color:white;
+	font-weight:bold;
+}
+button#votefalse {
+	float: right;
+	width: 70px;
+	height: 35px;
+	background-color: #3fa43f;
+	border: 2px solid #3fa43f;
+	font-family:"Arial";
+	color:white;
+	font-weight:bold;
+}
+
+button#loadpost {
+	width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	   display:inherit;
+}
+
+
+@media only screen and (min-width: 768px) {
+body {
+	margin: 0;
+	background-color: #fafafa;
+}
+
+div#startinfo {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: -40px;
+	border: 1px solid #000;
+	background-color: #feffff;
+}
+
+p#startinfotext {
+	margin-left: 10px;
+}
+
+p#startinfotitel {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#article {
+	background-color: #feffff;
+	border-right: 1px solid #a3a3a3;
+	border-bottom: 1px solid #a3a3a3;
+	border-left: 1px solid #a3a3a3;
+	margin-bottom: 15px;
+}
+
+div#posttop {
+	font-size: 10px;
+	background-color: #ebebeb;
+	margin-top: -10px;
+	border-top: 1px solid #a3a3a3;
+	border-bottom: 1px solid #c5c5c5;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom: 12px;
+}
+p#name1 {
+	display: inline;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5px;
+	width: 170px;
+	font-weight: bold;
+}
+
+p#name2 {
+	display: inline;
+	margin-bottom: 0;
+	margin-top: 0;
+	float: left;
+	width: 285px;
+}
+
+p#name3 {
+	display: inline;
+	position: relative;
+	margin-top: 0;
+	margin-right: 5px;
+}
+
+#posttop i.material-icons {
+	font-size: 9px;
+	display: inline;
+	position: static;
+}
+
+p#name4 {
+	display: inline;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 5px;
+	float: right;
+}
+
+.userbox{
+	float:right;
+	padding-right:5px;
+}
+
+p#creduser {
+	display: inline;
+		font: normal 12px Helvetica;
+}
+
+p#postuser {
+	display: inline;
+	margin-left: 5px;
+	font: bold 12px Helvetica;
+}
+
+#load h2 a {
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: Helvetica;
+	display: inline;
+	float: none;
+	color: #000;
+}
+
+#article h2 {
+	margin-left: 5px;
+	margin-top: 7px;
+	margin-bottom: -3px;
+}
+
+a#articlelink{
+	font: 10px Helvetica;
+	padding-left: 15px;
+	color: #000;
+	display: inline-block;
+	margin-top: 8px;
+}
+
+p#postdesc {
+	width: 530px;
+	margin-left: 8px;
+	margin-bottom: 25px;
+	font: normal 14px Helvetica;
+	margin-top: 45px;
+}
+
+div#load {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: helvetica;
+}
+
+div[id^="votedemo"] {
+	font: 12px Helvetica;
+	border-top:solid;
+	border-width: 1px;
+	border-color: #a3a3a3a3;
+	height: 35px;
+	}
+p#artfake{
+	font:12px Helvetica;
+	margin-bottom:-18px;
+  padding-top:2px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 0px;
+}
+
+div#votebar {
+	display: inline;
+	margin-left: 25px;
+	position: absolute;
+	z-index: 0;
+	margin-top:23px;
+	width:400px; 
+	height:6px;
+}
+
+button#votetrue {
+	float: left;
+	width: 70px;
+	height: 35px;
+	background-color: #ff4145;
+	border: 2px solid #ff4145;
+	font-family:"Arial";
+	color:white;
+	font-weight:bold;
+}
+
+button#votetrue:hover{
+	background-color: #d73539;
+	border: 2px solid #d73539;
+
+}
+button#votefalse {
+	float: right;
+	width: 70px;
+	height: 35px;
+	background-color: #49b948;
+	border: 2px solid #49b948;
+	font-family:"Arial";
+	color:white;
+	font-weight:bold;
+}
+
+button#votefalse:hover{
+	background-color: #399539;
+	border: 2px solid #399539;
+
+}
+
+button#loadpost {
+	width: 450px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	   display:inherit;
+}
+}

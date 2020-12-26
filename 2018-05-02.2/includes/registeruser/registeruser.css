@@ -1,0 +1,174 @@
+
+body {
+	background-color: #fafafa;
+}
+div#all{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#left {
+	width: 90%;
+    height: 480px;
+	padding-left: 40px;
+	float: left;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 15px;
+	margin-top: 30px;
+}
+
+form {
+	width: 90%;
+	margin-top: 33px;
+}
+
+label#nick {
+}
+
+input {
+	width: 80%;
+    background-color: #ffffff;
+    padding: 13px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+input#button {
+	width: 95%;
+}
+
+input[type=submit] {
+    width: 450px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div#homebtn{
+    width: 100px;
+    height: 40px;
+	display: inline;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+#homebtn a {
+	font-family: 'Cinzel', serif;
+	font-size:larger;
+	color:red;
+	margin-top: 7px;
+}
+
+h2 {
+	display: inline;
+	position: relative;
+	font-family: helvetica;
+	top: 2px;
+}
+
+input#sex {
+	width: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+body {
+	background-color: #fafafa;
+}
+div#all{
+    width:1150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div#left {
+	width: 500px;
+    height: 480px;
+	padding-left: 40px;
+	float: left;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 15px;
+	margin-top: 30px;
+}
+
+form {
+	margin-top: 33px;
+}
+
+label#nick {
+}
+
+input {
+	width: 400px;
+    background-color: #ffffff;
+    padding: 13px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 450px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+div#right{
+	width: 480px;
+    height: 480px;
+	padding-left: 40px;
+    padding-right: 40px;
+	float: right;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 15px;
+	margin-top: 50px;
+}
+div#homebtn{
+    width: 100px;
+    height: 40px;
+	display: inline;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+#homebtn a {
+	font-family: 'Cinzel', serif;
+	font-size:larger;
+	color:red;
+	margin-top: 7px;
+}
+
+h2 {
+	display: inline;
+	position: relative;
+	font-family: helvetica;
+	top: 2px;
+}
+
+input#sex {
+	width: 20px;
+}
+}
+

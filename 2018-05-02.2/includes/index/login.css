@@ -1,0 +1,104 @@
+
+div#homebtn{
+    width: 50%;
+    height: 40px;
+	display: inline;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+
+#homebtn a {
+	font-family: 'Cinzel', serif;
+	font-size:larger;
+	color:red;
+	margin-top: 7px;
+}
+
+span.error {
+	font: 12px helvetica;
+}
+
+h2 {
+	font: bold 12px helvetica;
+	margin-left:9px;
+}
+
+p {
+	margin: 0px;
+	font: 12px helvetica;
+}
+
+input#submit {
+	width: 50%;
+	margin-left: 2px;
+	margin-top: 20px;
+}
+
+form {
+	width: 100%;
+	margin: 0px;
+}
+
+input {
+	width: 80%;
+	margin: 0px;
+}
+
+html {
+	width: 100%;
+	margin: 0px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+div#homebtn{
+    width: 100px;
+    height: 40px;
+	display: inline;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+
+#homebtn a {
+	font-family: 'Cinzel', serif;
+	font-size:larger;
+	color:red;
+	margin-top: 7px;
+}
+
+span.error {
+	font: 12px helvetica;
+}
+
+h2 {
+	font: bold 12px helvetica;
+	margin-left:9px;
+}
+
+p {
+	margin: 0px;
+	font: 12px helvetica;
+}
+
+input#submit {
+	width: 110px;
+	margin-left: 2px;
+}
+
+form {
+	width: 140px;
+	margin: 0px;
+}
+
+input {
+	width: 110px;
+	margin: 0px;
+}
+
+html {
+	width: 140px;
+	margin: 0px;
+}
+}

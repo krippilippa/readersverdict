@@ -1,0 +1,274 @@
+/* @override http://www.readersverdict.com/includes/faq/faq.css */
+
+body {
+	background-color: #fafafa;
+	font-family: helvetica;
+}
+
+div#startinfo {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: -70px;
+	border: 1px solid #000;
+	background-color: #feffff;
+}
+
+p#startinfotext {
+	margin-left: 10px;
+}
+
+p#startinfotitel {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+div#load{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Helvetica;
+	padding-top:75px;
+}
+
+
+
+.ac-container label{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px 20px;
+	position: relative;
+	display: block;
+	height: 30px;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	line-height: 33px;
+	font-size: 19px;
+	background: #fff;
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.ac-container label:hover {
+    background: #efefef;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #c6e1ec;
+	color: #3d7489;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+	background: transparent url(../images/arrow_down.png) no-repeat center center;
+}
+
+.ac-container input:checked + label:hover:after{
+	background-image: url(../images/arrow_up.png);
+}
+
+
+.ac-container input {
+    display: none;
+}
+
+.ac-container section{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	transition: 
+		height 0.3s ease-in-out, 
+		box-shadow 0.6s linear;
+}
+.ac-container input:checked ~ section{
+	transition: 
+		height 0.5s ease-in-out, 
+		box-shadow 0.1s linear;
+	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+
+.ac-container section p{
+	font-style: italic;
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 20px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.ac-container input:checked ~ section{
+    -webkit-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -moz-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -o-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -ms-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    box-shadow: 0 0 0 1px rgba(155,155,155,0.3);
+}
+
+.ac-container input:checked ~ section.ac-small{
+	height: 140px;
+}
+.ac-container input:checked ~ section.ac-medium{
+	height: 180px;
+}
+.ac-container input:checked ~ section.ac-large{
+	height: 230px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+div#load{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Helvetica;
+	padding-top:75px;
+}
+
+div#startinfo {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: -40px;
+	border: 1px solid #000;
+	background-color: #feffff;
+}
+
+p#startinfotext {
+	margin-left: 10px;
+}
+
+p#startinfotitel {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+.ac-container{
+	width: 100%;
+	margin: 10px auto 30px auto;
+	position: static;
+}
+
+.ac-container label{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 30px;
+	cursor: pointer;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	line-height: 33px;
+	font-size: 19px;
+	background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.ac-container label:hover {
+    background: #efefef;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #c6e1ec;
+	color: #3d7489;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+	background: transparent url(../images/arrow_down.png) no-repeat center center;
+}
+
+.ac-container input:checked + label:hover:after{
+	background-image: url(../images/arrow_up.png);
+}
+
+.ac-container input {
+    display: none;
+}
+
+.ac-container section{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	transition: 
+		height 0.3s ease-in-out, 
+		box-shadow 0.6s linear;
+}
+.ac-container input:checked ~ section{
+	transition: 
+		height 0.5s ease-in-out, 
+		box-shadow 0.1s linear;
+	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+
+.ac-container section p{
+	font-style: italic;
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 20px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.ac-container input:checked ~ section{
+    -webkit-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -moz-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -o-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    -ms-transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    box-shadow: 0 0 0 1px rgba(155,155,155,0.3);
+}
+
+.ac-container input:checked ~ section.ac-small{
+	height: 140px;
+}
+.ac-container input:checked ~ section.ac-medium{
+	height: 180px;
+}
+.ac-container input:checked ~ section.ac-large{
+	height: 230px;
+}
+}
